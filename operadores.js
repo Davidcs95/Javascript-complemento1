@@ -2,7 +2,7 @@
 
 
 
-// 77 Ejemplo para &&
+//  Ejemplo para &&
 
  //const edad1 = prompt("Ingresa tu edad:");
  //const tieneEntrada1 =  confirm("¿Tienes entrada?");
@@ -16,18 +16,28 @@
 
 // ejemplo para || 
 
-const tieneEfectivo = true;
-const tieneTarjeta = true;
-const ninguno = false;
+//const tieneEfectivo = true;
+//const tieneTarjeta = true;
+//const ninguno = false;
 
 
 
-const pago = prompt("¿Cómo deseas pagar? (efectivo/tarjeta/ninguno)");
+//const pago = prompt("¿Cómo deseas pagar? (efectivo/tarjeta/ninguno)");
 
-const puedeComprar = (pago === "efectivo" && tieneEfectivo) || (pago === "tarjeta" && tieneTarjeta) || (pago === "ninguno" && ninguno);
+//const puedeComprar = (pago === "efectivo" && tieneEfectivo) || (pago === "tarjeta" && tieneTarjeta) || (pago === "ninguno" && ninguno);
 
-if (puedeComprar) {
-    console.log("Puedes realizar la compra.");
-} else {
-    console.log("No puedes realizar la compra, no tienes efectivo o tarjeta.");
-}   
+//if (puedeComprar) {
+//    console.log("Puedes realizar la compra.");
+//} else {
+//    console.log("No puedes realizar la compra, no tienes efectivo o tarjeta.");
+//}   
+
+
+
+//condicional  ! NO
+
+
+//const pago = prompt(`¿como deseas pagar? (efectivo/tarjeta)`);
+//if (!pago) {
+//    console.log(`no seleccionaste ningun metodo de pago`);
+//}
