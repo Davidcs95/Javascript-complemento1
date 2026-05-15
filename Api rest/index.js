@@ -15,6 +15,7 @@ const obtenerPersonajes = async () => {
 
             </div>
             ;`
+            
           });
     } catch (error) {
         console.error('Error al obtener los personajes:', error);
