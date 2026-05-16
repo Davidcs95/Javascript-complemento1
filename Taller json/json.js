@@ -10,6 +10,7 @@ const obteneruserId = async () => {
             <div class="col-md-4 col-lg-3">
                 <h2>${user.userId}</h2>
                 <p>${user.title}</p>
+                <p>${user.completed}</p>
             </div>
             ;`
         });
