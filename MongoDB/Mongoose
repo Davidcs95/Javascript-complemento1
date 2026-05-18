@@ -1,0 +1,5 @@
+// Mongoose es una librería que ayuda a conectar y manejar MongoDB desde Node.js de una forma más organizada y sencilla.
+// MongoDB guarda datos. Mongoose ayuda a trabajar con esos datos usando JavaScript de forma más cómoda.
+// Sin Mongoose tienes que escribir código más complejo para manejar conexiones, validaciones y consultas a MongoDB. Con Mongoose, puedes definir esquemas para tus datos, lo que te permite tener una estructura clara y validaciones automáticas. Además, Mongoose ofrece métodos útiles para realizar operaciones comunes como crear, leer, actualizar y eliminar documentos en MongoDB de manera más sencilla y eficiente. En resumen, Mongoose hace que trabajar con MongoDB sea más fácil y organizado para los desarrolladores de Node.js.
+
+// Con Mongoose Puedes crear “modelos” y trabajar casi como objetos JavaScript normales.
