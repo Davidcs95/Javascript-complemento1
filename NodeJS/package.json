@@ -1,0 +1,17 @@
+// package.json es el archivo principal de configuración de un proyecto en Node.js. Contiene información sobre el proyecto, como su nombre, versión, dependencias, scripts y más. Es esencial para gestionar las dependencias y configurar el entorno de desarrollo.
+
+{
+  "name": "PetFilomena",
+  "version": "1.0.0",
+  "description": "Un proyecto de ejemplo en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
