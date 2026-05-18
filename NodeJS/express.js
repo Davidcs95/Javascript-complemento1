@@ -5,6 +5,8 @@
 
 // ¿Para qué sirve Express?
 // Express sirve para crear aplicaciones web y APIs de manera rápida y sencilla, gracias a su enfoque minimalista y flexible. Sistemas de login. Servidores HTTP
+
+
 const express = require("express");
 const app = express();
 app.get("/", (req, res) => {
