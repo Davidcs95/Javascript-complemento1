@@ -1,0 +1,23 @@
+// Las bases de datos no relacionales (también llamadas NoSQL) son sistemas para guardar información que no usan tablas tradicionales con filas y columnas como las bases de datos relacionales.
+
+// No Relacional (NoSQL) Guardan datos más flexibles, por ejemplo en documentos JSON, grafos o pares clave-valor. Son ideales para manejar grandes volúmenes de datos no estructurados y escalar fácilmente.
+
+// Relacional (SQL) Guardan datos en tablas con filas y columnas, usando un esquema fijo. Son ideales para datos estructurados y relaciones complejas entre ellos, como en sistemas bancarios o de gestión empresarial. 
+
+// Tipos de bases NoSQL 
+// 1. Documentos: Almacenan datos en formato JSON o BSON, permitiendo una estructura flexible.
+// 2. Clave-Valor: Almacenan datos como pares de clave y valor, ideales para cachés y sistemas de almacenamiento simple.
+// 3. Grafos: Almacenan datos en nodos y relaciones, ideales para redes sociales y sistemas de recomendación.
+// 4. Columnas: Almacenan datos en columnas en lugar de filas, ideales para análisis de grandes volúmenes de datos.
+
+// Diferencia principal SQL Todas las filas deben tener las mismas columnas, mientras que NoSQL permite diferentes estructuras para cada documento o registro. SQL es más rígido pero ofrece integridad y relaciones complejas, mientras que NoSQL es más flexible y escalable para datos no estructurados.
+
+// Ventajas de NoSQL Flexible Cambia fácilmente     Escalable Soporta muchos usuarios Rápida Buena para tiempo real
+
+// Ventajas de SQL Estructura clara     Integridad de datos     Relaciones complejas     Transacciones ACID     Amplio soporte y herramientas
+
+// En resumen, las bases de datos NoSQL son ideales para aplicaciones que requieren flexibilidad y escalabilidad, mientras que las bases de datos SQL son mejores para aplicaciones que necesitan integridad de datos y relaciones complejas.
+
+// Desventajas de NoSQL Menos maduro que SQL     No es ideal para datos altamente estructurados     Puede carecer de soporte para transacciones ACID     Curva de aprendizaje para algunos tipos
+
+// Desventajas de SQL Menos flexible     Escalabilidad limitada     No es ideal para grandes volúmenes de datos no estructurados     Puede ser más lento para ciertas consultas 
